@@ -2,8 +2,8 @@
  * @Author: huangwensong huangwensong@58.com
  * @Date: 2023-10-12 16:20:51
  * @LastEditors: huangwensong huangwensong@58.com
- * @LastEditTime: 2023-10-26 19:38:03
- * @FilePath: /learn/blogsDocs/docs/.vuepress/config.js
+ * @LastEditTime: 2023-12-06 10:39:38
+ * @FilePath: /code/private-project/learn/blogsDocs/docs/.vuepress/config.js
  * @Description: 
  */
 module.exports = {
@@ -69,6 +69,15 @@ module.exports = {
                 collapsable: true,
                 children: [
                     { title: "当你在浏览器中输入 google.com 并且按下回车之后发生了什么?", path: "/blogs/computerNetwork/cn1" }
+                ]
+            },
+            {
+                title: "git",
+                path: "/blogs/git/git1",
+                collapsable: true,
+                children: [
+                    { title: "git 表情", path: "/blogs/git/git1" },
+                    { title: "将远程分支拉到本地", path: "/blogs/git/git2" },
                 ]
             }
         ]
